@@ -15,7 +15,7 @@ router.post('/register', async (req, res) => {
     const { name, email, password } = req.body;
      console.log({name,email,password});
     try {
-        const response = await fetch("http://localhost:8000/routes/database/create-user", {
+        const response = await fetch("https://fitbuddy-full-stack-gym-website.onrender.com/routes/database/create-user", {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
@@ -46,7 +46,7 @@ router.post('/log-in', async (req, res) => {
     const { email, password } = req.body;
     console.log("auth:", email, password)
     try {
-        const response = await fetch('http://localhost:8000/routes/database/login-user', {
+        const response = await fetch('https://fitbuddy-full-stack-gym-website.onrender.com/routes/database/login-user', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

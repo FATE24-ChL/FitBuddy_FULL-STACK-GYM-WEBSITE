@@ -18,7 +18,7 @@ const Page = () => {
     console.log("Password:", password);
 
     try {
-      const response = await fetch("http://localhost:8000/routes/auth/log-in", {
+      const response = await fetch("https://fitbuddy-full-stack-gym-website.onrender.com/routes/auth/log-in", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

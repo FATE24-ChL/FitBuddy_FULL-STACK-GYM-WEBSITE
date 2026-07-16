@@ -13,7 +13,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "http://localhost:8000/routes/database/contacts",
+        "https://fitbuddy-full-stack-gym-website.onrender.com/routes/database/contacts",
         {
           method: "POST",
           headers: {

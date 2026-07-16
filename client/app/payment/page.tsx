@@ -27,7 +27,7 @@ useEffect(() => {
 
   try {
     const response = await fetch(
-      "http://localhost:8000/routes/payment/create-order",
+      "https://fitbuddy-full-stack-gym-website.onrender.com/routes/payment/create-order",
       {
         method: "POST",
         headers: {

@@ -21,7 +21,7 @@ const Page = () => {
 
 
     try {
-      const response = await fetch("http://localhost:8000/routes/auth/register", {
+      const response = await fetch("https://fitbuddy-full-stack-gym-website.onrender.com/routes/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
