@@ -55,10 +55,41 @@ useEffect(() => {
       order_id: order.id,
 
       handler: async function (response: any) {
-        alert("Payment Successful!");
 
-        console.log(response);
+  const verify = await fetch(
+    "https://fitbuddy-full-stack-gym-website.onrender.com/routes/payment/verify-payment",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
       },
+      body: JSON.stringify(response),
+    }
+  );
+
+  const data = await verify.json();
+
+ if (data.success) {
+
+  localStorage.setItem(
+    "paymentData",
+    JSON.stringify({
+      email: userEmail,
+      course: course,
+      amount: amount,
+      paymentId: response.razorpay_payment_id,
+      orderId: response.razorpay_order_id,
+    })
+  );
+
+  window.location.href = "/receipt";
+
+} else {
+
+  alert("Payment Verification Failed!");
+
+}
+},
 
       prefill: {
         email: userEmail,
