@@ -15,6 +15,9 @@ app.use("/routes/database", route)
 app.use("/routes/payment",payment);
 console.log(process.env.MONGO_URL);
 const PORT = process.env.PORT || 8000;
+app.get("/", (req, res) => {
+  res.send("FitBuddy Backend is Running 🚀");
+});
 app.listen(PORT, () => {
     console.log(`Example app listening on port ${PORT}`);
 }
