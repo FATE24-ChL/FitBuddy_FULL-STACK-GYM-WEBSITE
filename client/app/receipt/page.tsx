@@ -25,7 +25,7 @@ export default function Receipt() {
 
             <div
                 id="receipt"
-                className="bg-white p-10 rounded-xl shadow-lg w-[500px]"
+                className="bg-white p-10 rounded-xl shadow-lg w-125"
             >
 
                 <h1 className="text-3xl font-bold text-center text-red-600">
