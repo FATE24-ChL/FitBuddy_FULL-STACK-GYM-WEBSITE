@@ -40,9 +40,9 @@ useEffect(() => {
     );
 
     const order = await response.json();
-console.log(process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID);
+console.log( "Razorpay Key:",process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID);
     const options = {
-      key: process.env.RAZORPAY_KEY_ID,
+      key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
 
       amount: order.amount,
 
