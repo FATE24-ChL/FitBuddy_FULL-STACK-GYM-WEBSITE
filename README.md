@@ -102,15 +102,77 @@ FitBuddy_FULL-STACK-GYM-WEBSITE
 
 # 📸 Screenshots
 
-Add screenshots of:
+## Home Page
 
-- Home Page
+![Home Page](SCREENSHOTS/HOME.PNG)
 
-- Login Page
-- Registration Page
-- Membership Page
-- Payment Page
-- Payment Receipt
+---
+
+## Login Page
+
+![Login Page](SCREENSHOTS/LOGIN.PNG)
+
+---
+
+## Register Page
+
+![Register Page](SCREENSHOTS/REGISTER.PNG)
+
+---
+
+## About Page
+
+![About Page](SCREENSHOTS/About-Page.PNG)
+
+---
+
+## Store Page
+
+![Store Page](SCREENSHOTS/store-page.PNG)
+
+---
+
+## Gallery Page
+![Gallery Page](SCREENSHOTS/FITBUDDY-GALLERY.PNG)
+
+---
+
+## Gallery Page
+![Gallery Page](SCREENSHOTS/Fitbuddy-Gallery-Page.PNG)
+
+---
+
+## Membership Page
+![Membership Page](SCREENSHOTS/MEMBERSHIP-CARDS.PNG)
+
+---
+
+## Fitness Institute Courses Page
+![Fitness Institute Courses Page](SCREENSHOTS/FITNESS-INSTITUTE-COURSES.PNG)
+
+---
+
+## Courses Payment Page
+![Courses Payment Page](SCREENSHOTS/COURSES-PAYMENT-INTERFACE.PNG)
+
+---
+
+
+## Payment Page
+
+![Payment Page](SCREENSHOTS/payment-gateway.PNG)
+
+---
+
+## Newsletter Page
+
+![Newsletter Page](SCREENSHOTS/NEWSLETTER-SECTION.PNG)
+
+---
+
+## FOOTER Page
+
+![FOOTER Page](SCREENSHOTS/FOOTER-SECTION.PNG)
 
 ---
 
